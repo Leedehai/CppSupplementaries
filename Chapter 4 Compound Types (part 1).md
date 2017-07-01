@@ -536,7 +536,7 @@ The C++ `enum` facility provides an alternative to `#define` and `const` for cre
 
       ```C++
       enum resident{apartment, house}; // default enumerator type
-      enum : short swimmingPool {indoor, outdoor}; // user-specified
+      enum swimmingPool : char {indoor, outdoor}; // user-specified
       ```
 
   - What if you assign an invalid value to an enumeration variable? The result is undefined and is dependent on the compiler.
